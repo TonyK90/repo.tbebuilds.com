@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.tbebuilds" name="TBE BUILDS" version="1.0.1" provider-name="TBE BUILDS">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests" version="2.6.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TBE BUILDS - Update | Backup | Restore | Maintain</summary>
+    <description lang="en">Easily Update, Backup, Restore and Maintain your Kodi build with the TBE BUILDS! Credits to: KodiMaster, XunityTalk, WHUFCLEE, DixieDean, Dan Elmore and KTV</description>
+    <platform>all</platform>
+  </extension>
+</addon>
